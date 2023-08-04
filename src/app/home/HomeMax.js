@@ -6,7 +6,7 @@ export default function HomeMax() {
     return (
         <div className="h-[calc(100vh-80px)] pl-24 text-neutral-600 hidden lg:flex items-center justify-between">
             <div className="flex justify-center items-center ">
-                <Image src={"/img/avatar.jpg"} width={400} height={400} alt="Imagem de perfil" className="rounded-full  mr-4 border-black hover:p-2 hover:border-orange-700 transition-all duration-300 shadow-lg shadow-black" />
+                <Image src={"/img/avatar.jpg"} width={350} height={400} alt="Imagem de perfil" className="rounded-full p-4 mr-4 border-2 border-dashed border-black hover:p-2 hover:border-orange-700 transition-all duration-300 shadow-lg shadow-black" />
                 <div className="w-30 mr-2 flex items-center gap-2">
                     <div className="w-6 h-6 bg-neutral-500 rounded-full hover:bg-orange-300 transition-all duration-300 shadow-md shadow-black" ></div>
                     <div className="w-5 h-5 rounded-full bg-neutral-500 hover:bg-orange-300 transition-all duration-300  shadow-md shadow-black"></div>
