@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ProjectCard() {
     return (
-        <div className="w-full flex flex-wrap justify-center">
+        <div className="w-3/4 flex flex-wrap justify-center">
             <div className="w-96 bg-orange-100 border-2 border-black m-2 p-2  flex flex-col items-center justify-start gap-2 rounded-tl-3xl rounded-br-3xl shadow-md shadow-black">
                 <h1 className="font-bold text-orange-800 text-2xl">Spotify Clone</h1>
                 <div>

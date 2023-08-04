@@ -1,11 +1,11 @@
 export default function AboutMin() {
     return (
-        <div className=" lg:hidden h-[calc(100vh-80px)] flex flex-col gap-10 items-center">
-            <div className='w-full flex flex-col items-end justify-end gap-2 pt-10'>
+        <div className="lg:hidden h-full flex flex-col gap-10 items-center justify-start py-20">
+            <div className='w-full flex flex-col items-end justify-end gap-2'>
                 <div className='w-3/4 h-1 shadow-md shadow-black bg-orange-500'></div>
                 <div className='w-2/4 h-1 shadow-md shadow-black bg-orange-700'></div>
             </div>
-            <div className=" m-2 flex flex-col items-center text-center border-2 border-orange-950 rounded-xl bg-orange-300 shadow-lg shadow-black overflow-y-scroll scrollbar-none">
+            <div className="w-3/4 flex flex-col items-center text-center border-2 border-orange-950 rounded-xl bg-orange-300 shadow-lg shadow-black overflow-y-scroll scrollbar-none">
                 <h1 className="flex flex-col my-2">
                     <span className="text-xl font-semibold">Olá!</span>
                     Eu sou

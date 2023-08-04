@@ -12,7 +12,7 @@ export default function Contacts() {
                 </div>
                 <div className='bg-orange-300 p-10 flex flex-col items-center justify-center text-4xl font-semibold gap-3 border-4 border-orange-700 rounded-full rounded-tr-xl shadow-md shadow-black'>
                     <a href="https://www.linkedin.com/in/hudsonsanto/" target="_blank" className='flex gap-5 items-center bg-orange-200 p-2 rounded-md shadow-md shadow-black hover:bg-blue-500 hover:text-neutral-300 transition-all duration-300'><Linkedin size={35} />Linkedin</a>
-                    <a href="https://github.com/HudsnF" target="_blank" className='flex gap-5 items-center bg-orange-200 p-2 rounded-md shadow-md shadow-black hover:bg-black hover:text-white transition-all duration-300'><Github size={35} />Github</a>
+                    <a href="https://github.com/HudsnF" target="_blank" className='flex gap-5 items-center bg-orange-200 p-2 rounded-md shadow-md shadow-black hover:bg-black hover:text-white transition-all duration-300'><Github size={35} />Github</a> 
                 </div>
                 <div className='w-full  flex flex-col items-start gap-2'>
                     <div className='w-2/4 h-1 shadow-md shadow-black bg-orange-700'></div>
