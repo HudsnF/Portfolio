@@ -6,7 +6,7 @@ export default function HomeMin() {
     return (
         <div className="text-neutral-600 lg:hidden flex flex-col items-center pt-8 gap-2 justify-center">
             <div className="flex flex-col justify-center items-center h-full">
-                <Image src={"/img/Avatar.jpg"} width={200} height={200} alt="Imagem de perfil" className="rounded-full p-3 mt-2 hover:p-2 transition-all duration-300 shadow-lg shadow-black" />
+                <Image src={"/img/avatar.jpg"} width={200} height={200} alt="Imagem de perfil" className="rounded-full p-3 mt-2 hover:p-2 transition-all duration-300 shadow-lg shadow-black" />
                 <div className="w-30 mt-8 py-2 flex flex-col items-center justify-center gap-4">
                     <div className="w-6 h-6 bg-neutral-500 rounded-full hover:bg-orange-300 transition-all duration-300 shadow-lg shadow-black" ></div>
                     <div className="w-5 h-5 rounded-full bg-neutral-500 hover:bg-orange-300 transition-all duration-300 shadow-lg shadow-black"></div>
