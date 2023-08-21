@@ -14,7 +14,7 @@ export default function HomeMin() {
                     <div className="w-3 h-3 rounded-full shadow-lg shadow-black"></div>
                 </div>
             </div>
-            <div className="flex flex-col items-center justify-center gap-6 py-10 px-1 w-4/5 mb-2 bg-orange-100 rounded-xl border-4 border-slate-800 shadow-lg shadow-black">
+            <div className="flex flex-col items-center justify-center gap-6 py-10 px-1 w-4/5 mb-2 rounded-xl border-4 border-slate-800 shadow-lg shadow-black">
                 <h1 className="font-extrabold text-3xl text-black text-center">Hudson Faria E. Santo</h1>
                 <h2 className="font-bold text-center text-2xl">Desenvolvedor Front-end</h2>
                 <div className="w-3/5 h-1 b border-t border-slate-900">
