@@ -6,15 +6,16 @@ export default function Projects() {
 
         <div>
             <NavBar />
-            <div className=" h-full bg-orange-200 flex flex-col items-center gap-8">
-                <div className='w-full flex flex-col items-end justify-end gap-2 pt-10'>
-                    <div className='w-3/4 h-1 shadow-md shadow-black bg-orange-500'></div>
-                    <div className='w-2/4 h-1 shadow-md shadow-black bg-orange-700'></div>
+            <div className=" h-full bg-neutral-100 flex flex-col items-center gap-8">
+                <div className='w-full pt-8 flex flex-col items-end justify-end gap-2'>
+                    <div className='w-1/4 h-1 shadow-md shadow-black bg-slate-900'></div>
+                    <div className='w-1/5 h-1 shadow-md shadow-black bg-yellow-400'></div>
                 </div>
                 <ProjectCard />
-                <div className='w-full flex flex-col items-start gap-2 pb-20'>
-                    <div className='w-2/4 h-1 shadow-md shadow-black bg-orange-700'></div>
-                    <div className='w-3/4 h-1 shadow-md shadow-black bg-orange-500'></div>
+                <div className='w-full pb-8 flex flex-col items-start justify-end gap-2'>
+                    <div className='w-1/5 h-1 shadow-md shadow-black bg-yellow-400'></div>
+                    <div className='w-1/4 h-1 shadow-md shadow-black bg-slate-900'></div>
+
                 </div>
             </div>
         </div>

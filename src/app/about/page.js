@@ -7,7 +7,7 @@ export default function About() {
     return (
         <>
             <NavBar />
-            <div className="bg-orange-200 h-[calc(100vh-80px)]">
+            <div className="bg-neutral-100 h-[calc(100vh-80px)]">
                 <AboutMax />
                 <AboutMin />
             </div>

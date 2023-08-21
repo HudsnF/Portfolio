@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div>
             <NavBar />
-            <div className="bg-orange-200">
+            <div className="bg-neutral-100">
                 <HomeMax />
                 <HomeMin />
             </div>
