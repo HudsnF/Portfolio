@@ -19,7 +19,7 @@ export default function AboutMax() {
                         Eu sou
                         <span className="text-yellow-500 shadow-md px-2 rounded-md font-bold">Hudson Faria E. Santo</span>
                     </h1>
-                    <p className="px-6">
+                    <p className="px-6 ">
                         Sou desenvolvedor Web Front-end, estudante de Análise e Desenvolvimento de Sistemas e procuro oportunidade de estágio ou desenvolvedor Front-end Jr. Possuo habilidades com <span className="font-bold">HTML, CSS, Javascript, React, NextJs e TailwindCss</span> e, estou em constante aprimoramento, sempre estudando novas tecnologias! Tenho disponibilidade e aptidão para aprender coisas novas sempre que necessário, além de alta capacidade de adaptação.
                     </p>
                 </div>

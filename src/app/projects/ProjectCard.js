@@ -5,6 +5,20 @@ export default function ProjectCard() {
     return (
         <div className="w-3/4 flex flex-wrap justify-center text-slate-800">
             <div className="w-96 bg-neutral-200 m-2 p-4  flex flex-col items-center justify-start gap-4 rounded-tl-3xl rounded-br-3xl shadow-md shadow-slate-800">
+                <h1 className="font-bold text-slate-500 shadow-sm shadow-yellow-500 px-2 rounded-xl text-2xl">Coffee Time</h1>
+                <div className="overflow-y-scroll h-44 scrollbar-thin scrollbar-track-orange-950 scrollbar-thumb-orange-500">
+                    <Image src={"/img/coffeetime.jpeg"} width={500} height={100} alt="" />
+                </div>
+                <div className="flex gap-4">
+                    <a href="https://hudsnf.github.io/Seven-Wonders-of-the-World/" target="_blank" className="bg-slate-900 px-4 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Site <Link size={16} /></a>
+                    <a href="https://github.com/HudsnF/Seven-Wonders-of-the-World" target="_blank" className="bg-slate-900 px-3 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Code<FileCode2 size={16} /></a>
+                </div>
+                <div className="p-2 text-lg text-center">
+                    <p>Um dos projetos mais recentes, simulando um site de cafeteria, no qual você pode escolher qual sua bebida, além de ser possível colocar e retirar do carrinho. Feito com <span className="font-semibold">React.js e uma lógica com Javascript.</span></p>
+                </div>
+            </div>
+
+            <div className="w-96 bg-neutral-200 m-2 p-4  flex flex-col items-center justify-start gap-4 rounded-tl-3xl rounded-br-3xl shadow-md shadow-slate-800">
                 <h1 className="font-bold text-slate-500 shadow-sm shadow-yellow-500 px-2 rounded-xl text-2xl">Amazon Clone</h1>
                 <div className="overflow-y-scroll h-44 scrollbar-thin scrollbar-track-orange-950 scrollbar-thumb-orange-500">
                     <Image src={"/img/amazon-clone.jpeg"} width={500} height={100} alt="" />
@@ -60,7 +74,7 @@ export default function ProjectCard() {
                 </div>
             </div>
 
-            <div className="w-96 bg-neutral-200 m-2 p-4  flex flex-col items-center justify-start gap-4 rounded-tl-3xl rounded-br-3xl shadow-md shadow-slate-800">
+            {/* <div className="w-96 bg-neutral-200 m-2 p-4  flex flex-col items-center justify-start gap-4 rounded-tl-3xl rounded-br-3xl shadow-md shadow-slate-800">
                 <h1 className="font-bold text-slate-500 shadow-sm shadow-yellow-500 px-2 rounded-xl text-2xl">Coffee Shop</h1>
                 <div>
                     <Image src={"/img/coffee.jpeg"} width={500} height={100} alt="" />
@@ -72,7 +86,7 @@ export default function ProjectCard() {
                 <div className="p-2 text-lg text-center">
                     <p>Esse foi o primeiro projeto usando <span className="font-semibold">Javascript</span>. Uma pagina com foco mobile de uma loja de café, no qual, você escolhe o sabor, faz o pedido e escolhe entre reaver o pedido ou confirmar o mesmo.</p>
                 </div>
-            </div>
+            </div> */}
 
             <div className="w-96 bg-neutral-200 m-2 p-4  flex flex-col items-center justify-start gap-4 rounded-tl-3xl rounded-br-3xl shadow-md shadow-slate-800">
                 <h1 className="font-bold text-slate-500 shadow-sm shadow-yellow-500 px-2 rounded-xl text-2xl">Clock Shop</h1>
