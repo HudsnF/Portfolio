@@ -66,8 +66,8 @@ export default function ProjectCard() {
                     <Image src={"/img/portfolio1.jpeg"} width={500} height={100} alt="" />
                 </div>
                 <div className="flex gap-4">
-                    <a href="https://hudsnf.github.io/Portifolio/" target="_blank" className="bg-slate-900 px-4 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Site <Link size={16} /></a>
-                    <a href="https://github.com/HudsnF/Portifolio" target="_blank" className="bg-slate-900 px-3 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Code<FileCode2 size={16} /></a>
+                    <a href="https://hudsnf.github.io/Portfolio_outdated/" target="_blank" className="bg-slate-900 px-4 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Site <Link size={16} /></a>
+                    <a href="https://github.com/HudsnF/Portfolio_outdated" target="_blank" className="bg-slate-900 px-3 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Code<FileCode2 size={16} /></a>
                 </div>
                 <div className="p-2 text-lg text-center">
                     <p>Meu primeiro portfolio, criado com <span className="font-semibold">HTML, CSS e Javascript</span></p>
