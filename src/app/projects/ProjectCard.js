@@ -10,8 +10,8 @@ export default function ProjectCard() {
                     <Image src={"/img/coffeetime.jpeg"} width={500} height={100} alt="" />
                 </div>
                 <div className="flex gap-4">
-                    <a href="https://github.com/HudsnF/CoffeeTime" target="_blank" className="bg-slate-900 px-4 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Site <Link size={16} /></a>
-                    <a href="https://coffee-time-ashy.vercel.app/" target="_blank" className="bg-slate-900 px-3 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Code<FileCode2 size={16} /></a>
+                    <a href="https://coffee-time-ashy.vercel.app/" target="_blank" className="bg-slate-900 px-4 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Site <Link size={16} /></a>
+                    <a href="https://github.com/HudsnF/CoffeeTime" target="_blank" className="bg-slate-900 px-3 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Code<FileCode2 size={16} /></a>
                 </div>
                 <div className="p-2 text-lg text-center">
                     <p>Um dos projetos mais recentes, simulando um site de cafeteria, no qual você pode escolher qual sua bebida, além de ser possível colocar e retirar do carrinho. Feito com <span className="font-semibold">React.js e uma lógica com Javascript.</span></p>
