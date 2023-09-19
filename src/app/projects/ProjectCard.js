@@ -56,7 +56,7 @@ export default function ProjectCard() {
                     <a href="https://github.com/HudsnF/Seven-Wonders-of-the-World" target="_blank" className="bg-slate-900 px-3 py-1 text-lg flex items-center rounded-xl gap-2 shadow-sm shadow-slate-800 border-2 border-black text-white font-semibold hover:bg-slate-700 transition-all duration-300">Code<FileCode2 size={16} /></a>
                 </div>
                 <div className="p-2 text-lg text-center">
-                    <p>Um dos projetos mais recentes, que demonstra um site informativo sobre os grandes pontos turísticos como "As sete maravilhas do mundo moderno". Feito com <span className="font-semibold">HTML, CSS e Javascript.</span></p>
+                    <p>Um projeto que demonstra um site informativo sobre grandes pontos turísticos, como "As sete maravilhas do mundo moderno". Feito com <span className="font-semibold">HTML, CSS e Javascript.</span></p>
                 </div>
             </div>
 
